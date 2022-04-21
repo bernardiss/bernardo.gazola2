@@ -159,3 +159,62 @@ height: 379px;
   background-color: var(--primary-color);
   color: var(--secondary-color)
 }
+
+@media screen and (max-width: 1180px) and (min-width: 0) {
+  h3 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 992px) and (min-width: 0) {
+  #icon {
+    position: relative;
+    right: 90px;
+  }
+
+  #intro h3 {
+    text-align: right;
+    position: relative;
+    left: 109px;
+  }
+
+  #qualifications h3 {
+    position: relative;
+    left: 100px;
+  }
+
+  #cv h3 {
+    position: relative;
+    left: 110px;
+  }
+
+  #portfolio h3 {
+    position: relative;
+    left: 110px;
+  }
+
+  #intro h1 {
+    text-align: right;
+    position: relative;
+    left: 100px;
+  }
+
+  #qualifications h1 {
+    text-align: right;
+    position: relative;
+    left: 70px;
+  }
+
+  #cv h1 {
+    text-align: right;
+    position: relative;
+    left: 90px;
+  }
+
+  #portfolio h1 {
+    text-align: right;
+    position: relative;
+    left: 60px;
+  }
+}
