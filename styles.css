@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 h2 {
   text-align: justify;
   border-radius: 70px;
@@ -104,14 +108,15 @@ height: 379px;
   --primary-color: #eddbda;
   --secondary-color: #292525;
   --third-color: #d69a22;
-  --image: url("../images/intro.png");
+  --image: url("intro.png");
+  --image2: url("intro2.png")
   }
 
 .dark-theme {
   --primary-color: #292525;
   --secondary-color: #eddbda;
   --third-color: #271d40;
-  --image: url("../images/bg.png");0
+  --image: url("bg.png");0
   }
 
 .navbar {
@@ -142,12 +147,12 @@ height: 379px;
 }
 
 #qualifications {
-  background-image: var(--image);
+  background-image: var(--image2);
     color: var(--secondary-color)
 }
 
 #portfolio {
-  background-image: var(--image);
+  background-image: var(--image2);
     color: var(--secondary-color)
 }
 
