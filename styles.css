@@ -13,6 +13,7 @@ h2 {
 
 h2:hover {
   border-color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 h1 {
