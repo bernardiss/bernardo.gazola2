@@ -1,0 +1,157 @@
+h2 {
+  text-align: justify;
+  border-radius: 70px;
+  padding: 0 10px 0 10px;
+  border-style: solid;
+  border-color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+h2:hover {
+  border-color: var(--third-color);
+}
+
+h1 {
+  font-size: 3rem;
+  padding-bottom: 2%;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.fa-solid {
+  color: #d6223d;
+}
+
+.coding {
+  height: 379px;
+  width: 339px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div {
+  height: 40px;
+  width: 100%;
+  background-color: var(--third-color);
+}
+
+.bernardo-intro {
+padding-left: 60px;
+padding-top: 40px;
+position: relative;
+bottom: 20px;
+}
+
+.intro {
+  text-align: center;
+  position: relative;
+  right: 110px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.collapse {
+  flex: 1;
+  text-align: right;
+}
+
+.cv {
+  padding-left: 60px;
+padding-top: 40px;
+position: relative;
+bottom: 20px;
+width: 399px;
+height: 379px;
+}
+
+.portfolio {
+  height: 379px;
+  width: 339px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.anchor {
+  color: var(--secondary-color);
+}
+
+.copyright {
+  padding-top: 73.6015px;
+  padding-bottom: 73.6015px;
+}
+
+.dropdown-toggle {
+    text-align: justify;
+    border-radius: 70px;
+    padding: 0 10px 0 10px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.dropdown-toggle:hover {
+  border-color: var(--third-color);
+}
+
+:root {
+  --primary-color: #eddbda;
+  --secondary-color: #292525;
+  --third-color: #d69a22;
+  --image: url("../images/intro.png");
+  }
+
+.dark-theme {
+  --primary-color: #292525;
+  --secondary-color: #eddbda;
+  --third-color: #271d40;
+  --image: url("../images/bg.png");0
+  }
+
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.nav-link {
+  color: var(--secondary-color);
+}
+
+#icon {
+  width: 50px;
+  height: auto;
+  position: relative;
+  left: 75px;
+  cursor: pointer;
+}
+
+#intro {
+  background-image: var(--image);
+  color: var(--secondary-color)
+}
+
+#cv {
+  background-image: var(--image);
+    color: var(--secondary-color)
+}
+
+#qualifications {
+  background-image: var(--image);
+    color: var(--secondary-color)
+}
+
+#portfolio {
+  background-image: var(--image);
+    color: var(--secondary-color)
+}
+
+#footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color)
+}
