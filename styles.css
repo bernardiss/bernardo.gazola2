@@ -109,7 +109,7 @@ height: 379px;
   --secondary-color: #292525;
   --third-color: #d69a22;
   --image: url("intro.png");
-  --image2: url("intro2.png")
+  --image2: url("intro2.png");
   }
 
 .dark-theme {
@@ -117,6 +117,7 @@ height: 379px;
   --secondary-color: #eddbda;
   --third-color: #271d40;
   --image: url("bg.png");
+  --image2: url("bg.png");
   }
 
 .navbar {
